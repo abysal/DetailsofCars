@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#808080">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Type and Run"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/textMake1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:hint="Make:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="#FFFFFF"
+        />
+
+    <EditText
+        android:id="@+id/textYear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:hint="Year:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="#FFFFFF"
+        />
+
+    <EditText
+        android:id="@+id/textColor1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:hint="Color:"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="#FFFFFF"
+        />
+
+    <EditText
+        android:id="@+id/textPurchasePrice1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:hint="Purchase price2(£):"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="#FFFFFF"
+        />
+
+    <EditText
+        android:id="@+id/textEngineSize1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:hint="Engine size(litre):"
+        android:textColor="@color/colorPrimaryDark"
+        android:textColorHint="#FFFFFF"
+        />
+        <Button
+            android:id="@+id/buttonCreateCar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="Create Car"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/colorbutton"
+            android:textColor="@android:color/white"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:outlineAmbientShadowColor="@color/colorPrimaryDark">
+    <TextView
+        android:id="@+id/textScrollable1"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scrollbars="vertical"
+        android:text=""
+        android:textColor="#D35400"
+        android:textSize="30dp"
+
+        />
+    </ScrollView>
+</LinearLayout>
